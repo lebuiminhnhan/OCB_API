@@ -7,11 +7,10 @@ namespace OCB_API.Models
     public class UserLogin
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         [Required]
         public string? UserName { get; set; }
-        [Required]
         public string? Password { get; set; }
         [ForeignKey("User")]
         public int UserId { get; set; }

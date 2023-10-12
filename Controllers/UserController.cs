@@ -22,7 +22,10 @@ namespace OCB_API.Controllers
         public async Task<ActionResult<ApiResponse<List<User>>>> GetUserTable()
         {
             
-            var userTable = await _context.UserTable.ToListAsync();
+            var userTable = await _context.UserTable
+                .Where(x => _context.UserLoginTable.Where(y => x.Id == y.UserId).FirstOrDefault().RoleUser != "S_Admin")
+                .Where(x => _context.UserLoginTable.Where(y => x.Id == y.UserId).FirstOrDefault().RoleUser != "Admin")
+                .ToListAsync();
             return Ok(new ApiResponse<List<User>> { Status = true, StatusCode = 200, Message = "UserTable retrieved successfully", Data = userTable }); ;
         }
 
@@ -47,7 +50,7 @@ namespace OCB_API.Controllers
             _context.UserTable.Add(user);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetUser", new { id = user.Id }, new ApiResponse<User> { Status = true, StatusCode = 201, Message = "User created successfully", Data = user });
+            return CreatedAtAction("GetUser", new { id = user.Id }, new ApiResponse<User> { Status = true, StatusCode = 200, Message = "User created successfully", Data = user });
         }
 
         // PUT: api/User/5
@@ -77,7 +80,7 @@ namespace OCB_API.Controllers
                 }
             }
 
-            return Ok(new ApiResponse<User> { Status = true, StatusCode = 204, Message = "User updated successfully" });
+            return Ok(new ApiResponse<User> { Status = true, StatusCode = 200, Message = "User updated successfully" });
         }
 
         // DELETE: api/User/5

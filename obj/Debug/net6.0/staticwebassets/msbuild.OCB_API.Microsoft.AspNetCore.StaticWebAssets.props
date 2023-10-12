@@ -1,11 +1,11 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\1ca6b511-1cbc-4e99-9c37-3078d5c3b284_vnmobile.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\2f76098b-fbff-4134-a316-cb2ddf9410c4_nature.png))">
       <SourceType>Package</SourceType>
       <SourceId>OCB_API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OCB_API</BasePath>
-      <RelativePath>images/1ca6b511-1cbc-4e99-9c37-3078d5c3b284_vnmobile.png</RelativePath>
+      <RelativePath>images/2f76098b-fbff-4134-a316-cb2ddf9410c4_nature.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -14,14 +14,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\1ca6b511-1cbc-4e99-9c37-3078d5c3b284_vnmobile.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\2f76098b-fbff-4134-a316-cb2ddf9410c4_nature.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\271dba38-65dd-4282-92ce-35fefedb2fdd_vnmobile.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\44013458-f5cd-4d1e-b738-358e07e3d0d3_rose.png))">
       <SourceType>Package</SourceType>
       <SourceId>OCB_API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OCB_API</BasePath>
-      <RelativePath>images/271dba38-65dd-4282-92ce-35fefedb2fdd_vnmobile.png</RelativePath>
+      <RelativePath>images/44013458-f5cd-4d1e-b738-358e07e3d0d3_rose.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -30,14 +30,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\271dba38-65dd-4282-92ce-35fefedb2fdd_vnmobile.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\44013458-f5cd-4d1e-b738-358e07e3d0d3_rose.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\42a8f86e-6293-4204-b9a2-d1b06d6f471f_rose.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\6ac8889c-f92d-48c1-bc64-048fb940cd95_vnmobile.png))">
       <SourceType>Package</SourceType>
       <SourceId>OCB_API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OCB_API</BasePath>
-      <RelativePath>images/42a8f86e-6293-4204-b9a2-d1b06d6f471f_rose.png</RelativePath>
+      <RelativePath>images/6ac8889c-f92d-48c1-bc64-048fb940cd95_vnmobile.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -46,14 +46,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\42a8f86e-6293-4204-b9a2-d1b06d6f471f_rose.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\6ac8889c-f92d-48c1-bc64-048fb940cd95_vnmobile.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\5d0038dc-a184-4749-b223-975a5b615475_Smoothie.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\b543c90a-94fb-4d53-a645-f434c215a38f_klever.png))">
       <SourceType>Package</SourceType>
       <SourceId>OCB_API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OCB_API</BasePath>
-      <RelativePath>images/5d0038dc-a184-4749-b223-975a5b615475_Smoothie.png</RelativePath>
+      <RelativePath>images/b543c90a-94fb-4d53-a645-f434c215a38f_klever.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -62,14 +62,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\5d0038dc-a184-4749-b223-975a5b615475_Smoothie.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\b543c90a-94fb-4d53-a645-f434c215a38f_klever.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\70d0357c-c272-4d35-8628-e3e09d7c6ddd_vnmobile.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\b6c8b4c8-2c24-45f4-b255-35739c8b8be9_pibook.png))">
       <SourceType>Package</SourceType>
       <SourceId>OCB_API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OCB_API</BasePath>
-      <RelativePath>images/70d0357c-c272-4d35-8628-e3e09d7c6ddd_vnmobile.png</RelativePath>
+      <RelativePath>images/b6c8b4c8-2c24-45f4-b255-35739c8b8be9_pibook.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -78,14 +78,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\70d0357c-c272-4d35-8628-e3e09d7c6ddd_vnmobile.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\b6c8b4c8-2c24-45f4-b255-35739c8b8be9_pibook.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\7f882d4a-df9f-42f7-acb7-392f74c60f63_vnmobile.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\d0d6ad69-8a29-455d-94b7-d80aa9af9049_rose.png))">
       <SourceType>Package</SourceType>
       <SourceId>OCB_API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OCB_API</BasePath>
-      <RelativePath>images/7f882d4a-df9f-42f7-acb7-392f74c60f63_vnmobile.png</RelativePath>
+      <RelativePath>images/d0d6ad69-8a29-455d-94b7-d80aa9af9049_rose.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -94,55 +94,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\7f882d4a-df9f-42f7-acb7-392f74c60f63_vnmobile.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\a0e33d2e-47cd-4d93-a512-a39f56425cb1_Smoothie.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>OCB_API</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/OCB_API</BasePath>
-      <RelativePath>images/a0e33d2e-47cd-4d93-a512-a39f56425cb1_Smoothie.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\a0e33d2e-47cd-4d93-a512-a39f56425cb1_Smoothie.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\aede355b-24e3-4e47-a974-30af83a6d1b2_rose.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>OCB_API</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/OCB_API</BasePath>
-      <RelativePath>images/aede355b-24e3-4e47-a974-30af83a6d1b2_rose.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\aede355b-24e3-4e47-a974-30af83a6d1b2_rose.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\pibook.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>OCB_API</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/OCB_API</BasePath>
-      <RelativePath>images/pibook.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\pibook.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\d0d6ad69-8a29-455d-94b7-d80aa9af9049_rose.png))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>
