@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\PROJECT\\OCB_API\\wwwroot\\images\\1ca6b511-1cbc-4e99-9c37-3078d5c3b284_vnmobile.png",
+      "PackagePath": "staticwebassets\\images\\1ca6b511-1cbc-4e99-9c37-3078d5c3b284_vnmobile.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\OCB_API\\wwwroot\\images\\271dba38-65dd-4282-92ce-35fefedb2fdd_vnmobile.png",
+      "PackagePath": "staticwebassets\\images\\271dba38-65dd-4282-92ce-35fefedb2fdd_vnmobile.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\OCB_API\\wwwroot\\images\\42a8f86e-6293-4204-b9a2-d1b06d6f471f_rose.png",
+      "PackagePath": "staticwebassets\\images\\42a8f86e-6293-4204-b9a2-d1b06d6f471f_rose.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\OCB_API\\wwwroot\\images\\5d0038dc-a184-4749-b223-975a5b615475_Smoothie.png",
+      "PackagePath": "staticwebassets\\images\\5d0038dc-a184-4749-b223-975a5b615475_Smoothie.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\OCB_API\\wwwroot\\images\\70d0357c-c272-4d35-8628-e3e09d7c6ddd_vnmobile.png",
+      "PackagePath": "staticwebassets\\images\\70d0357c-c272-4d35-8628-e3e09d7c6ddd_vnmobile.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\OCB_API\\wwwroot\\images\\7f882d4a-df9f-42f7-acb7-392f74c60f63_vnmobile.png",
+      "PackagePath": "staticwebassets\\images\\7f882d4a-df9f-42f7-acb7-392f74c60f63_vnmobile.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\OCB_API\\wwwroot\\images\\a0e33d2e-47cd-4d93-a512-a39f56425cb1_Smoothie.png",
+      "PackagePath": "staticwebassets\\images\\a0e33d2e-47cd-4d93-a512-a39f56425cb1_Smoothie.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\OCB_API\\wwwroot\\images\\aede355b-24e3-4e47-a974-30af83a6d1b2_rose.png",
+      "PackagePath": "staticwebassets\\images\\aede355b-24e3-4e47-a974-30af83a6d1b2_rose.png"
+    },
+    {
+      "Id": "D:\\PROJECT\\OCB_API\\wwwroot\\images\\pibook.png",
+      "PackagePath": "staticwebassets\\images\\pibook.png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.OCB_API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.OCB_API.props",
+      "PackagePath": "build\\OCB_API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.OCB_API.props",
+      "PackagePath": "buildMultiTargeting\\OCB_API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.OCB_API.props",
+      "PackagePath": "buildTransitive\\OCB_API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "KVS2R0M7oGbUZsDegzn9vDZSs15TxLH0apwUCOsp6vo=",
+  "Source": "OCB_API",
+  "BasePath": "_content/OCB_API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "OCB_API\\wwwroot",
+      "Source": "OCB_API",
+      "ContentRoot": "D:\\PROJECT\\OCB_API\\wwwroot\\",
+      "BasePath": "_content/OCB_API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
