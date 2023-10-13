@@ -30,6 +30,7 @@ namespace OCB_API.Services
 
             using (var client = new SmtpClient())
             {
+                client.CheckCertificateRevocation = false;
                 client.Connect(_emailConfig.SmtpServer, _emailConfig.Port, false);
                 client.Authenticate(_emailConfig.UserName, _emailConfig.Password);
                 client.Send(message);

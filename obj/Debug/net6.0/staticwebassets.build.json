@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FRnKIDMzX5XdyOSaRwZ2C3Q13HJNM8TAEQY2QFGQmoE=",
+  "Hash": "JgVUM/pG+rU2j1pB289j7fipOgbJ7bW57lHKyOolVh8=",
   "Source": "OCB_API",
   "BasePath": "_content/OCB_API",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\6ac8889c-f92d-48c1-bc64-048fb940cd95_vnmobile.png"
+    },
+    {
+      "Identity": "D:\\PROJECT\\OCB_API\\wwwroot\\images\\70510903-fa80-4719-9245-e46dd3b3feab_nature.png",
+      "SourceId": "OCB_API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\PROJECT\\OCB_API\\wwwroot\\",
+      "BasePath": "_content/OCB_API",
+      "RelativePath": "images/70510903-fa80-4719-9245-e46dd3b3feab_nature.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\70510903-fa80-4719-9245-e46dd3b3feab_nature.png"
     },
     {
       "Identity": "D:\\PROJECT\\OCB_API\\wwwroot\\images\\b543c90a-94fb-4d53-a645-f434c215a38f_klever.png",

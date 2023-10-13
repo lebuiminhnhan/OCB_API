@@ -97,7 +97,7 @@ namespace OCB_API.Controllers
                     userLogin.Password = RandomString(6);
                     _context.Entry(userLogin).State = EntityState.Modified;
                     await _context.SaveChangesAsync();
-                    var emailBody = $"Mật khẩu mới của bạn là: {userLogin.Password}";
+                    var emailBody = $"Tài khoản đăng nhập: {userLogin.UserName}\n Mật khẩu mới của bạn là: {userLogin.Password}";
 
                     _emailService.SendContactEmail("Admin OCB", email, "OCB thông tin mật khẩu mới", emailBody);
 
