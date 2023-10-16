@@ -55,7 +55,7 @@ namespace OCB_API.Controllers
             {
                 Status = true,
                 StatusCode = 200,
-                Message = "InfoContact retrieved successfully",
+                Message = "Thông tin liên hệ cập nhật thành công!",
                 Data = infoContact
             };
 
@@ -72,7 +72,7 @@ namespace OCB_API.Controllers
             {
                 Status = true,
                 StatusCode = 201,
-                Message = "InfoContact created successfully",
+                Message = "Tạo thông tin liên hệ thành công!",
                 Data = infoContact
             };
 
@@ -109,7 +109,7 @@ namespace OCB_API.Controllers
             {
                 Status = true,
                 StatusCode = 200,
-                Message = "InfoContact updated successfully",
+                Message = "Cập nhật thông tin liên hệ thành công!",
                 Data = null
             };
 
@@ -133,7 +133,7 @@ namespace OCB_API.Controllers
             {
                 Status = true,
                 StatusCode = 200,
-                Message = "InfoContact deleted successfully",
+                Message = "Xóa thông tin liên hệ thành công!",
                 Data = null
             };
 

@@ -88,7 +88,7 @@ namespace OCB_API.Controllers
             {
                 Status = true,
                 StatusCode = 200,
-                Message = "InfoRegister deleted successfully",
+                Message = "Xóa đăng kí nhận thông tin thành công!",
                 Data = null
             };
 

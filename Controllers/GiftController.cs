@@ -110,7 +110,7 @@ namespace OCB_API.Controllers
         {
             if (id != gift.Id)
             {
-                return BadRequest(new ApiResponse<Gift> { Status = false, StatusCode = 400, Message = "Invalid request" });
+                return BadRequest(new ApiResponse<Gift> { Status = false, StatusCode = 400, Message = "Cập nhật thất bại! Vui lòng kiểm tra lại thông tin." });
             }
 
             _context.Entry(gift).State = EntityState.Modified;
@@ -131,7 +131,7 @@ namespace OCB_API.Controllers
                 }
             }
 
-            return Ok(new ApiResponse<Gift> { Status = true, StatusCode = 200, Message = "Gift updated successfully" });
+            return Ok(new ApiResponse<Gift> { Status = true, StatusCode = 200, Message = "Cập nhật thông tin quà tặng thành công!" });
         }
 
         // DELETE: api/Gift/5
@@ -148,7 +148,7 @@ namespace OCB_API.Controllers
             _context.GiftTable.Remove(gift);
             await _context.SaveChangesAsync();
 
-            return Ok(new ApiResponse<Gift> { Status = true, StatusCode = 204, Message = "Gift deleted successfully" });
+            return Ok(new ApiResponse<Gift> { Status = true, StatusCode = 204, Message = "Xóa quà tặng thành công!" });
         }
 
         private bool GiftExists(int id)

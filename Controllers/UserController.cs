@@ -26,7 +26,7 @@ namespace OCB_API.Controllers
                 .Where(x => _context.UserLoginTable.Where(y => x.Id == y.UserId).FirstOrDefault().RoleUser != "S_Admin")
                 .Where(x => _context.UserLoginTable.Where(y => x.Id == y.UserId).FirstOrDefault().RoleUser != "Admin")
                 .ToListAsync();
-            return Ok(new ApiResponse<List<User>> { Status = true, StatusCode = 200, Message = "UserTable retrieved successfully", Data = userTable }); ;
+            return Ok(new ApiResponse<List<User>> { Status = true, StatusCode = 200, Message = "Lấy danh sách khách hàng thành công!", Data = userTable }); ;
         }
 
         // GET: api/User/5
@@ -40,7 +40,7 @@ namespace OCB_API.Controllers
                 return NotFound(new ApiResponse<User> { Status = false, StatusCode = 404, Message = "User not found" });
             }
 
-            return Ok(new ApiResponse<User> { Status = true, StatusCode = 200, Message = "User retrieved successfully", Data = user });
+            return Ok(new ApiResponse<User> { Status = true, StatusCode = 200, Message = "Lấy thông tin chi tiết user thành công!", Data = user });
         }
 
         // POST: api/User
@@ -50,7 +50,7 @@ namespace OCB_API.Controllers
             _context.UserTable.Add(user);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetUser", new { id = user.Id }, new ApiResponse<User> { Status = true, StatusCode = 200, Message = "User created successfully", Data = user });
+            return CreatedAtAction("GetUser", new { id = user.Id }, new ApiResponse<User> { Status = true, StatusCode = 200, Message = "Tạo thông tin khách hàng thành công!", Data = user });
         }
 
         // PUT: api/User/5
@@ -59,7 +59,7 @@ namespace OCB_API.Controllers
         {
             if (id != user.Id)
             {
-                return BadRequest(new ApiResponse<User> { Status = false, StatusCode = 400, Message = "Invalid request" });
+                return BadRequest(new ApiResponse<User> { Status = false, StatusCode = 400, Message = "Cập nhật thất bại! Vui lòng kiểm tra lại thông tin." });
             }
 
             _context.Entry(user).State = EntityState.Modified;
@@ -80,7 +80,7 @@ namespace OCB_API.Controllers
                 }
             }
 
-            return Ok(new ApiResponse<User> { Status = true, StatusCode = 200, Message = "User updated successfully" });
+            return Ok(new ApiResponse<User> { Status = true, StatusCode = 200, Message = "Cập nhật thông tin khách hàng thành công!" });
         }
 
         // DELETE: api/User/5
@@ -96,7 +96,7 @@ namespace OCB_API.Controllers
             _context.UserTable.Remove(user);
             await _context.SaveChangesAsync();
 
-            return Ok(new ApiResponse<User> { Status = true, StatusCode = 204, Message = "User deleted successfully" });
+            return Ok(new ApiResponse<User> { Status = true, StatusCode = 204, Message = "Xóa khách hàng thành công!" });
         }
 
         private bool UserExists(int id)

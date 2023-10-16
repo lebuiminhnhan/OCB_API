@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JgVUM/pG+rU2j1pB289j7fipOgbJ7bW57lHKyOolVh8=",
+  "Hash": "+75mP3A/gNQT5kYFloQHFd8EXsJXmx1jUJsveZ1fU58=",
   "Source": "OCB_API",
   "BasePath": "_content/OCB_API",
   "Mode": "Default",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "D:\\PROJECT\\OCB_API\\wwwroot\\images\\2160b86a-eab6-47ed-b68c-345235cad92e_pibook.png",
+      "SourceId": "OCB_API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\PROJECT\\OCB_API\\wwwroot\\",
+      "BasePath": "_content/OCB_API",
+      "RelativePath": "images/2160b86a-eab6-47ed-b68c-345235cad92e_pibook.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\2160b86a-eab6-47ed-b68c-345235cad92e_pibook.png"
+    },
     {
       "Identity": "D:\\PROJECT\\OCB_API\\wwwroot\\images\\2f76098b-fbff-4134-a316-cb2ddf9410c4_nature.png",
       "SourceId": "OCB_API",

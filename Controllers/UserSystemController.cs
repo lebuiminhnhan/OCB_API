@@ -59,7 +59,7 @@ namespace OCB_API.Controllers
             var userData = _context.UserTable.FirstOrDefault(x => x.Id == user.UserId);
             var emailBody = $"Tài khoản đăng nhập: {user.UserName}\nMật khẩu của bạn là: {user.Password}";
             _emailService.SendContactEmail("Admin OCB", userData.Email, "OCB thông tin tài khoản mới", emailBody);
-            return CreatedAtAction("GetUser", new { id = user.Id }, new ApiResponse<User> { Status = true, StatusCode = 200, Message = "User created successfully", Data = null });
+            return CreatedAtAction("GetUser", new { id = user.Id }, new ApiResponse<User> { Status = true, StatusCode = 200, Message = "Đã tạo thành công tài khoản cho người dùng nội bộ, vui lòng người dùng kiểm tra email để biết thông tin tài khoản và mật khẩu!", Data = null });
         }
 
         private string RandomString(int length)
@@ -103,7 +103,7 @@ namespace OCB_API.Controllers
                 }
             }
 
-            return Ok(new ApiResponse<UserLogin> { Status = true, StatusCode = 200, Message = "User updated successfully" });
+            return Ok(new ApiResponse<UserLogin> { Status = true, StatusCode = 200, Message = "Cập nhật thông tin thành công!" });
         }
 
         // DELETE: api/User/5
@@ -119,7 +119,7 @@ namespace OCB_API.Controllers
             _context.UserLoginTable.Remove(user);
             await _context.SaveChangesAsync();
 
-            return Ok(new ApiResponse<User> { Status = true, StatusCode = 204, Message = "User deleted successfully" });
+            return Ok(new ApiResponse<User> { Status = true, StatusCode = 204, Message = "Xóa tài khoản thành công!" });
         }
 
         private bool UserExists(int id)
